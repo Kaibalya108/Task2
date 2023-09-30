@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import undefined from "./";
+import WhileHovering from "./pages/while-hovering";
 import { useEffect } from "react";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<undefined />} />
+      <Route path="/" element={<WhileHovering />} />
     </Routes>
   );
 }
